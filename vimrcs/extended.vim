@@ -10,15 +10,11 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set background=dark
 
-if has("gui_running")
-    colorscheme peaksea
-else
-    colorscheme ir_black
-endif
+colorscheme Tomorrow-Night
 
 " Set font according to system
 if has("mac") || has("macunix")
-    set gfn=Menlo:h14
+    set gfn=Menlo:h16
     set shell=/bin/bash
 elseif has("win16") || has("win32")
     set gfn=Bitstream\ Vera\ Sans\ Mono:h10
