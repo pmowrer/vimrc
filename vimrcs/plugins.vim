@@ -2,7 +2,7 @@
 " From: http://www.erikzaadi.com/2012/03/19/auto-installing-vundle-from-your-vimrc/
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let iCanHazVundle=1
-let vundle_readme=expand('~/.vim/bundle/vundle/README.md')
+let vundle_readme=expand('$HOME/.vim/bundle/vundle/README.md')
 if !filereadable(vundle_readme)
     echo "Installing Vundle..."
     echo ""
@@ -45,7 +45,7 @@ Bundle 'tpope/vim-surround'
 Bundle 'kien/ctrlp.vim'
 
 " TomorrowNight: color scheme
-Bundle 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
+Bundle 'chriskempson/tomorrow-theme', {'rtp': 'vim'}
 
 " VimMarkdown: Markdown syntax highlighting
 Bundle 'tpope/vim-markdown'
