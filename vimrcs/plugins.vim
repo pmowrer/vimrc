@@ -59,6 +59,9 @@ Bundle 'vimcn/matchit.vim'
 " Synctastic: Syntax checking hacks for vim
 Bundle 'scrooloose/syntastic'
 
+" VimGroovy: Syntax-highlighting for Groovy
+Bundle 'vim-scripts/groovy.vim'
+
 " Installing plugins the first time
 if iCanHazVundle == 0
     echo "Installing Bundles, please ignore key map error messages"

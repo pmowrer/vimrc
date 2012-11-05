@@ -52,3 +52,8 @@ function! CoffeeScriptFold()
     setl foldlevelstart=1
 endfunction
 au FileType coffee call CoffeeScriptFold()
+
+""""""""""""""""""""""""""""""
+" => Groovy section
+"""""""""""""""""""""""""""""""
+au BufNewFile,BufRead *.gradle setf groovy
