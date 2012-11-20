@@ -11,8 +11,15 @@ if !filereadable(vundle_readme)
     let iCanHazVundle=0
 endif
 
-set nocompatible               " be iMproved
-filetype off                   " required for vundle
+set nocompatible
+
+" Setting filetype off if it wasn't already on can cause git to exit with
+" true error code, causing problems when used with git commit messages.
+" http://tooky.co.uk/2010/04/08/there-was-a-problem-with-the-editor-vi-git-on-mac-os-x.html
+filetype on
+
+" Required for Vundle.
+filetype off
 
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
