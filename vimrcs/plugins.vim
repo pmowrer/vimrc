@@ -61,7 +61,7 @@ Bundle 'tpope/vim-markdown'
 Bundle 'tpope/vim-ragtag'
 
 " MatchIt: Extended % matching for HTML, LaTeX, and many other languages
-Bundle 'vimcn/matchit.vim'
+Bundle 'vim-scripts/matchit.zip'
 
 " Synctastic: Syntax checking hacks for vim
 Bundle 'scrooloose/syntastic'
